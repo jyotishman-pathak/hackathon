@@ -18,7 +18,11 @@ export async function AnalyzeSymtomaticDisease(symptomText : string ) {
             "condition": "possible_condition",
             "severity": "low/medium/high",
             "action": "recommended_action"
-        }}`
+        }}
+            
+        
+        
+        `
     ])
    
     return template.response.text()

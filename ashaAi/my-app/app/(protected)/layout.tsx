@@ -11,7 +11,7 @@ const SideBarLayout = ({ children }: { children: React.ReactNode }) => {
         <AppSideBar />
 
         {/* Main Content Area */}
-        <main className="flex-1 flex flex-col transition-all duration-300 lg:ml-5">
+        <main className="flex-1 flex flex-col transition-all duration-300 lg:ml-1">
           {/* Sticky Header Section */}
           <div className="sticky top-0 z-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="flex flex-col p-4 gap-4">
@@ -34,6 +34,7 @@ const SideBarLayout = ({ children }: { children: React.ReactNode }) => {
           </div>
         </main>
       </div>
+      
     </SidebarProvider>
   )
 }

@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
 
-import { LayoutDashboard, Bot, Video, FileText, Activity, GraduationCap, Settings } from "lucide-react";
+import { LayoutDashboard, Bot, Video, FileText, Activity, GraduationCap, Settings, DockIcon } from "lucide-react";
 
 const menuItems = [
   {
@@ -22,6 +22,12 @@ const menuItems = [
     title: "Symptom Checker (AI Chat)",
     url: "/symptom-checker",
     icon: Bot,
+  },
+  {
+    title : 'AI Doctor',
+    url : '/prescription',
+    icon : DockIcon
+
   },
   {
     title: "Video Consultations",
